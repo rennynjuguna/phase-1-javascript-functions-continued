@@ -8,5 +8,5 @@ const mondayWork = function(activity="go to the office"){
 function wrapAdjective(visual = '*'){
 return function(adj = "special"){
     return `You are ${visual}${adj}${visual}!`
-}
+} 
 }
